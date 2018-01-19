@@ -14,14 +14,21 @@ The paper used a modified version of LSTM called Action conditioned LSTM, mainly
 <img src="imgs/1.png"><br><br>
 </div>
 
+## Data Collection
+We trained a synchronous Advantage Actor Critic (A2C) agent and used it to collect data from openAi Atari enviroments.
+
+
 ## Usage
- 
-### Training monitoring 
+  #####Dependencies
+```
+Python 3.X
+tensorflow 1.3.0
+numpy 1.13.1
+tqdm
+```
+  #####Train
 
+  - Collect data from any atari enviroment using the method mentioned before, or use the provided data.
+- Run ```python res.py is_train=True```
 
-.........![](imgs/1.png?#mycenter)
-
-### Model Output
-
-### References
 
