@@ -2,10 +2,6 @@
 An implementation of Deepmind recurrent enviroment simulators in tensorflow. 
 
 
-<div align="center">
-<img src="imgs/2.png"><br><br>
-</div>
-
 # Action-conditioned LSTM
 The paper used a modified version of LSTM called Action conditioned LSTM, mainly it's an early fusion between actions and states. They used this approach as it enables them to explore how the model generalises to different action policies.
 
@@ -19,14 +15,14 @@ We trained a synchronous Advantage Actor Critic (A2C) agent and used it to colle
 
 
 ## Usage
-  ###Dependencies
+  ##### Dependencies
 ```
 Python 3.X
 tensorflow 1.3.0
 numpy 1.13.1
 tqdm
 ```
-  ###Train
+  ##### Train
 
   - Collect data from any atari enviroment using the method mentioned before, or use the provided data.
 - Run ```python res.py is_train=True```
