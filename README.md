@@ -24,12 +24,12 @@ mainly it's an early fusion between actions and states. They used this approach 
 <img hight="1000" width="1000" src="imgs/1.png"><br><br>
 </div>
 
-## Data Collection using A2C RL agent
+# Data Collection using A2C RL agent
 We trained a synchronous Advantage Actor Critic (A2C) agent and used it to explore the desired enviroment and collect data, using openAi Atari enviroments.
 
 
-## Usage
-  #### Dependencies
+# Usage
+  ### Dependencies
 ```
 Python 3.X
 tensorflow 1.3.0
@@ -37,7 +37,7 @@ numpy 1.13.1
 tqdm
 ```
 
-#### Run
+### Run
 
 - Collect data from any atari enviroment using the method mentioned before, or use the provided data.
 - Run ```python res.py is_train=True```
