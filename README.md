@@ -21,7 +21,7 @@ mainly it's an early fusion between actions and states. They used this approach 
 
 
 <div align="center"> 
-<img src="imgs/1.png"><br><br>
+<img hight="500" width="500" src="imgs/1.png"><br><br>
 </div>
 
 ## Data Collection using A2C RL agent
