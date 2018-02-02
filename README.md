@@ -29,16 +29,17 @@ We trained a synchronous Advantage Actor Critic (A2C) agent and used it to explo
 
 
 ## Usage
-  ##### Dependencies
+  #### Dependencies
 ```
 Python 3.X
 tensorflow 1.3.0
 numpy 1.13.1
 tqdm
 ```
-  ##### Train
 
-  - Collect data from any atari enviroment using the method mentioned before, or use the provided data.
+#### Run
+
+- Collect data from any atari enviroment using the method mentioned before, or use the provided data.
 - Run ```python res.py is_train=True```
 
 
