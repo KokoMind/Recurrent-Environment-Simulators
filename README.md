@@ -15,7 +15,7 @@ The following figure visualize the RES architecture. It can be devided to three 
 
 
 # Action-conditioned LSTM
-One of the main contributions of this work is fusing the action with the hidden state representation when predicting the next hidden state representation in time. In previous work, the action was used instead to directly predict the next image. Why? Authors suggest it could “enable the model to incorporate action information more effectively”.
+One of the main contributions of their work is fusing the action with the hidden state representation when predicting the next hidden state representation in time. In previous work, the action was used instead to directly predict the next image. Why? Authors suggest it could “enable the model to incorporate action information more effectively”.
 so paper used a modified version of LSTM called Action conditioned LSTM.
 mainly it's an early fusion between actions and states. They used this approach as it enables them to explore how the model generalises to different action policies.
 
@@ -27,6 +27,7 @@ mainly it's an early fusion between actions and states. They used this approach 
 # Data Collection using A2C RL agent
 We trained a synchronous Advantage Actor Critic (A2C) agent and used it to explore the desired enviroment and collect data, using openAi Atari enviroments.
 
+We'll provide some collected data from different Atari enviroments.
 
 # Usage
   ### Dependencies
@@ -40,6 +41,9 @@ tqdm
 ### Run
 
 - Collect data from any atari enviroment using the method mentioned before, or use the provided data.
+- Edit the configration file to meet your need.
 - Run ```python res.py is_train=True```
 
 
+### License
+This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
