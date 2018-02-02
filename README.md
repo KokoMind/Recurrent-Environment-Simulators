@@ -4,7 +4,7 @@ Modeling the environment is an important task for intelligent agents to be able 
 This repository contains a tensorflow implementation of the Recurrent Enviroment Simulators paper puplished by DeepMind at ICML 2017. (https://arxiv.org/abs/1704.02254)
 
 
-# Action-conditioned LSTM
+## Action-conditioned LSTM
 The paper used a modified version of LSTM called Action conditioned LSTM, mainly it's an early fusion between actions and states. They used this approach as it enables them to explore how the model generalises to different action policies. 
 
 <div align="center">
