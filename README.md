@@ -8,7 +8,7 @@ This repository contains a tensorflow implementation of the Recurrent Enviroment
 The following figure visualize the RES architecture. It can be devided to three main parts, the encoder, the decoder and the action-conditioned LSTM. The encoder extract the features from the observation at time step ```t```, the action-conditioned LSTM keeps useful features from previous frames to help the decoder predict better observations for time step ```t+1```.
 
 <div align="center">
-<img src="imgs/2.png"><br><br>
+<img src="imgs/3.png"><br><br>
 </div>
 
 
