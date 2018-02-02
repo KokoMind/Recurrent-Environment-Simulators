@@ -1,5 +1,8 @@
 # Recurrent-Environment-Simulators
-An implementation of Deepmind recurrent enviroment simulators in tensorflow. 
+Modeling the environment is an important task for intelligent agents to be able to plan and act efficiently. A Recurrent Environment Simulator network can achive this task easily by learning to predict the next observation given the history of observations and actions. Making the agent able to predict the consequences of its actions.
+
+This repository contains a tensorflow implementation of the Recurrent Enviroment Simulators paper puplished by DeepMind at ICML 2017. (https://arxiv.org/abs/1704.02254)
+
 
 
 
