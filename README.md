@@ -4,6 +4,14 @@ Modeling the environment is an important task for intelligent agents to be able 
 This repository contains a tensorflow implementation of the Recurrent Enviroment Simulators paper puplished by DeepMind at ICML 2017. (https://arxiv.org/abs/1704.02254)
 
 
+## Network Architecture 
+The following figure visualize the RES architecture. It can be devided to three main parts, the encoder, the decoder and the action-conditioned LSTM. The encoder extract the features from the observation at time step ```t```, the action-conditioned LSTM keeps useful features from previous frames to help the decoder predict better observations for time step ```t+1```.
+
+<div align="center">
+<img src="imgs/2.png"><br><br>
+</div>
+
+
 ## Action-conditioned LSTM
 The paper used a modified version of LSTM called Action conditioned LSTM, mainly it's an early fusion between actions and states. They used this approach as it enables them to explore how the model generalises to different action policies. 
 
